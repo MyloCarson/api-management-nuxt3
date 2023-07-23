@@ -1,0 +1,38 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
+  // "compilerOptions": {
+  //   "target": "esnext",
+  //   "module": "esnext",
+  //   "moduleResolution": "node",
+  //   "lib": [
+  //     "esnext",
+  //     "esnext.asynciterable",
+  //     "dom"
+  //   ],
+  //   "esModuleInterop": true,
+  //   "experimentalDecorators": true,
+  //   "sourceMap": true,
+  //   "strict": true,
+  //   "noEmit": true,
+  //   "baseUrl": ".",
+  //   "importsNotUsedAsValues": "preserve",
+  //   "include": [
+  //     "composables/*.ts",
+  //     "composables/**/*.ts",
+  //     "plugins/*.ts",
+  //     "plugins/**/*.ts"
+  //   ],
+  //   "types": [
+  //     "@types/node",
+  //     "@nuxt/types"
+  //   ]
+  // },
+  // "exclude": [
+  //   "node_modules",
+  //   "pages/**/*",
+  //   "layouts/**/*",
+  //   "components/**/*",
+  //   "assets/**/*",
+  // ]
+}

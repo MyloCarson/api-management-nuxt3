@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --fix src",
+    "prettier": "prettier  --write '**/*.{vue,scss,css,js,ts}'"
+  },
+  "lint-staged": {
+    "**/*.{vue,js,ts}": [
+      "eslint",
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.6.0",
+    "lint-staged": "^13.0.3",
+    "nuxt": "3.0.0-rc.11",
+    "prettier": "^2.7.1",
+    "vue-eslint-parser": "^9.1.0"
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all",
+    "last 3 version",
+    "Chrome >= 35",
+    "Firefox >= 38",
+    "Edge >= 10",
+    "Explorer >= 10",
+    "ie >= 10",
+    "iOS >= 8",
+    "Safari >= 8",
+    "Android 2.3",
+    "Android >= 4",
+    "Opera >= 12"
+  ],
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.3",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0"
+  }
+}
